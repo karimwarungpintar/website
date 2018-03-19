@@ -1,0 +1,12 @@
+{
+  "crawl": false,
+  "customTests": [],
+  "dest": "/PATH/TO/modernizr-output.js",
+  "tests": [
+    "mediaqueries"
+  ],
+  "options": [
+    "setClasses"
+  ],
+  "uglify": true
+}

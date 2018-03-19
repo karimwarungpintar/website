@@ -1,0 +1,159 @@
+$main-color: #FDC20F
+$font-color: #000
+$gap-section: 50px
+
+// Constructor
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav
+	font-family: 'Roboto', 'Lato', 'Arial'
+
+// Navbar
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+	background-color: transparent
+	font-weight: bolder
+	color: $main-color
+
+.navbar
+	background-color: rgba($main-color, 0.8)
+	border-color: transparent
+
+.hide
+	display: none
+
+
+#navbar
+	ul
+		padding-top: 20px
+
+#nav-elem
+	color: black
+	padding-bottom: 5px
+	padding-top: 5px
+
+	&:hover
+		font-weight: bolder
+
+#logo-nav
+	width: 249px
+	padding: 0
+	height: 60px
+
+	@media screen and (max-width: 414px)
+		width: 159px
+
+#logo-nav-img
+	width: 249px
+
+	@media screen and (max-width: 414px)
+		width: 159px
+		margin-top: 12px
+		margin-bottom: 12px
+
+
+#active
+	font-weight: bolder
+
+// Content
+@mixin content-margin
+	margin: auto
+
+@mixin judul
+	color: $main-color
+	text-align: center
+
+// Footer
+.div-footer
+	margin-left: 0
+	margin-right: 0
+	width: 100%
+	padding: 0
+
+footer.footer
+	background-color: $main-color
+	padding-left: 50px
+	padding-right: 50px
+	padding-top: 30px
+	margin: 0
+
+.reach-us
+	width: 100%
+	text-align: center
+
+.icon
+	width: 100%
+	height: 100px
+	ul
+		text-align: center
+		padding: 0
+
+	.social-icon
+	list-style: none
+	padding: 0
+	margin: 0
+
+	li
+		display: inline-block
+		text-align: center
+	a 
+		display: block
+		width: 70px
+		height: 70px
+		line-height: 70px
+		border-radius: 50%
+		margin-right: 10px
+		background: white /* social icon background color */
+		color: #000 /* social icon color */
+	a:hover 
+		background: white /* social icon hover background color */
+		color: yellow /* social icon hover color */
+
+.split-content
+	width: 100%
+	height: 100px
+
+	h5, h6
+		color: black
+
+	.split
+		display: inline-block
+
+		@media screen and (max-width: 414px)
+			text-align: center
+
+		p 
+			margin: 10px 0 10px
+			color: black
+
+	.contact
+		@media screen and (max-width: 414px)
+			text-align: center
+
+	.willhide
+		@media screen and (max-width: 414px)
+			display: none
+
+.vl
+	border-left: 5px solid black
+	height: 200px
+	padding: 0
+	width: 20px
+
+	@media screen and (max-width: 768px)
+		height: 0
+		border-left: 0
+
+.copyright
+	padding-top: 10px
+	font-color: #000
+	// font-style: italic
+
+	p
+		text-align: center
+		font-size: 10px

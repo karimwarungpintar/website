@@ -1,0 +1,69 @@
+$main-color: #FDC20F
+
+body,
+html
+	height: 100%
+
+body
+	background: -moz-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%)
+	background: -webkit-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%)
+	background: -o-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%)
+	background: -ms-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%)
+	background: linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%)
+
+	.container
+		text-align: center
+		top: 50%
+		position: relative
+		transform: translateY(-50%)
+		#thankyou
+			color: white
+			font-weight: bolder
+			// text-align: center
+			// top: 50%
+			// position: relative
+			// transform: translateY(-50%)
+
+		#desc
+			color: white
+			margin: 0
+			// text-align: center
+			// top: 50%
+			// position: relative
+			// transform: translateY(-50%)
+
+		button
+			margin: 20px
+			border: 4px solid white
+			background-color: transparent
+			font-weight: bolder
+			border-radius: 24px
+			color: white
+
+			&:hover
+				font-weight: bolder
+				color: white
+				border: 4px solid white
+				background: -moz-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%);
+				background: -webkit-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%);
+				background: -o-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%);
+				background: -ms-linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%);
+				background: linear-gradient(45deg, rgba(238,128,128,1) 0%, rgba(238,128,128,1) 8%, rgba(255,165,0,1) 100%);
+
+		.footer
+			padding-left: 20%
+			padding-right: 20%
+			margin-top: 30px
+			img
+				width: 150px
+				float: right
+
+				@media screen and (max-width: 994px)
+					float: none
+
+			#contact
+				color: white
+				float: left
+				@media screen and (max-width: 994px)
+					float: none
+

@@ -1,0 +1,685 @@
+@import "base.sass"
+
+
+hr 
+	border: solid 0.8px #fcecbc
+	margin-top: 0
+	margin-bottom: 0
+
+
+#hr-w-bottom
+	margin-bottom: 70px
+
+// content
+.content
+	margin-top: 60px
+	height: auto
+
+	.top-head
+
+		.header
+			// background-image: url("https://s3-ap-southeast-1.amazonaws.com/website-warungpintar/Header/overlay-bg.jpg")
+			background-image: url("../img/transparent/fitur-trans.png")
+			height: 700px
+			width: 100%
+			background-size: cover
+			background-repeat: no-repeat
+			position: fixed
+			top: 0
+			left: 0
+			z-index: -1
+
+		.jumbotron
+			background: transparent
+			height: 700px
+			padding-right: 700px
+			padding-left: 100px
+			padding-top: 120px
+			margin-bottom: 0
+
+			@media screen and(max-width: 1125px)
+				padding-right: 500px
+				padding-left: 100px
+				padding-top: 50px
+
+			@media screen and(max-width: 900px)
+				padding-right: 300px
+				padding-left: 80px
+				padding-top: 20px
+
+			@media screen and(max-width: 468px)
+				padding-right: 100px
+				padding-left: 20px
+				padding-top: 100px
+
+		.btn
+			border-color: white
+			color: white
+			margin-top: 10px
+			padding: 15px
+			background-color: transparent
+			border-width: 4px
+			font-size: 20px
+			font-weight: bold
+			-webkit-transition: 0.5s /* For Safari 3.1 to 6.0 */
+			transition: 0.5s
+			border-radius: 35px
+
+			&:hover
+				background-color: white
+				color: $main-color
+
+	.about-WP
+		margin-bottom: $gap-section
+
+		.split-about
+			@include content-margin
+
+			#head-aboutWP
+				@include judul
+				margin-bottom: 50px
+				padding: 0
+				
+			.about
+				padding: 30px
+				text-align: center
+
+				img
+					width: 150px
+					height: 150px
+					margin-left: auto
+					margin-right: auto
+					padding: 15px
+
+				h4
+					text-align: center
+
+
+	.models
+		padding-top: $gap-section
+		padding-bottom: $gap-section
+		// background-image: url("https://s3-ap-southeast-1.amazonaws.com/website-warungpintar/Model/bg-model.jpg")
+		background-image: url("../img/transparent/fitur-trans.png")
+		background-repeat: no-repeat
+		background-position: center center
+		background-size: cover
+		width: 100%
+		margin-left: 0
+		margin-right: 0
+
+		.split-model
+			margin-top: 30px
+			margin-bottom: 10px
+
+			.model
+				padding: 30px
+				text-align: center
+
+				img
+					width: 150px
+					height: 150px
+					margin-left: auto
+					margin-right: auto
+					border: 10px solid white
+					border-radius: 50%
+				h4
+					color: white
+					text-align: center
+		.div-btn-model
+			text-align: center
+
+			.join-model
+				margin-top: 30px
+				margin-bottom: 30px
+				background: transparent
+				color: white
+				border: 5px solid white
+				-webkit-transition: 0.5s /* For Safari 3.1 to 6.0 */
+				transition: 0.5s
+				border-radius: 35px
+
+				&:hover
+					margin-top: 30px
+					margin-bottom: 30px
+					background: white
+					color: $main-color
+					border: 5px solid white
+
+	.benefit
+		margin-top: 70px
+		margin-bottom: 25px
+
+		#benefit-1
+			display: inline-block
+			padding: 0
+			text-align: center
+
+			#head-benefit
+				color: $main-color
+				text-align: right
+				margin: 20px
+
+				@media screen and (max-width: 1024px)
+					margin: 0
+					margin-top: 20px
+
+				@media screen and (max-width: 768px)
+					margin: 0
+					margin-top: 20px
+					text-align: right
+					font-size: 30px
+
+				@media screen and (max-width: 480px)
+					text-align: center
+
+			.item
+				text-align: center
+				margin-bottom: 50px
+				img
+					width: 150px
+					height: 150px
+					margin-left: auto
+					margin-right: auto
+					padding: 25px
+
+				h4
+					text-align: center
+					font-weight: lighter
+
+	.ourfeature
+		padding-top: 72px
+		padding-bottom: 63px
+		background-color: rgba($main-color, 0.8)
+		margin-left: 0
+		margin-right: 0
+		width: 100%
+
+		@media screen and (max-width: 768px)
+			padding: 0
+
+		.row-feature
+			width: 100%
+
+		.feature
+			@include content-margin
+
+			#head-feature
+				text-align: center
+				color: white
+				margin-top: 20px
+				margin-bottom: 30px
+				padding: 0
+
+			#image-feature
+				display: block
+				width: 100%
+				margin-top: 30px
+				margin-left: auto
+				margin-right: auto
+				padding: 30px
+				padding-top: 0
+
+	.form
+		padding-top: 68px
+		padding-bottom: 63px
+
+		.head-form
+			@include judul
+			margin-bottom: 30px
+		.registeration
+			border-top: 5px solid $main-color
+			-webkit-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47)
+			-moz-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47)
+			box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47)
+			margin-bottom: 30px
+
+
+		.registerInner
+		 	margin: 15px
+
+		.form-group
+			width: 100%
+			line-height: 50px   
+		
+
+		.signbuttons
+			margin-bottom: 35px
+			background: $main-color
+			border: none
+			color: white
+			transition: 0.5s
+			border-radius: 35px
+
+			&:hover
+				background-color: white
+				color: $main-color
+
+		.learn-form
+			background-color: $main-color
+			border: 0px
+			color: white
+			transition: 0.5s
+			border-radius: 35px
+
+			&:hover
+				background-color: white
+				color: $main-color
+				border-bottom: 1px dotted $main-color
+
+		input, textarea
+			border-top: none !important
+			border-right: none !important
+			border-left: none !important
+			border-bottom: 1px dotted $main-color !important
+			box-shadow: none !important
+			-webkit-box-shadow: none !important
+			-moz-box-shadow: none !important
+			-moz-transition: none !important
+			-webkit-transition: none !important
+
+		.headerSign
+			color: $main-color
+			margin-bottom: 20px
+			text-align: center
+		
+
+		.darktext
+			color: $main-color
+		
+
+		//steps
+		.list-group.vertical-steps
+			padding-left: 10px
+		
+		.list-group.vertical-steps .list-group-item
+			border: none
+			border-left: 3px solid #ece5dd
+			box-sizing: border-box
+			border-radius: 0
+			counter-increment: step-counter
+			padding-left: 20px
+			padding-right: 0px
+			padding-bottom: 20px  
+			padding-top: 0px
+		
+		.list-group.vertical-steps .list-group-item.active
+			background-color: transparent
+			color: inherit
+
+			h3
+				color: $main-color
+		
+		.list-group.vertical-steps .list-group-item:last-child
+			border-left: 3px solid transparent
+			padding-bottom: 0
+		
+		.list-group.vertical-steps .list-group-item:before 
+			border-radius: 50%
+			background-color: #ece5dd
+			color: #555
+			content: counter(step-counter)
+			display: inline-block
+			float: left
+			height: 25px
+			line-height: 25px
+			margin-left: -35px
+			text-align: center  
+			width: 25px  
+		
+		.list-group.vertical-steps .list-group-item span,
+		.list-group.vertical-steps .list-group-item a
+			display: block
+			overflow: hidden
+			padding-top: 2px
+			padding: 10px
+		
+		/*Active/ Completed States*/
+		.list-group.vertical-steps .list-group-item.active:before
+			background-color: $main-color
+			color: black
+		
+		.list-group.vertical-steps .list-group-item.completed
+			border-left: 3px solid $main-color
+		
+		.list-group.vertical-steps .list-group-item.completed:before
+			background-color: $main-color
+			color: black
+		
+		.list-group.vertical-steps .list-group-item.completed:last-child
+			border-left: 3px solid transparent
+		
+	// modal
+	.modal-confirm 		
+		color: #434e65
+		width: 525px
+
+		@media screen and (max-width: 414px)
+			width: 90%
+			margin-left: 10px
+
+	.modal-confirm .modal-content 
+		padding: 20px
+		font-size: 16px
+		border-radius: 5px
+		border: none
+
+	.modal-confirm .modal-header 
+		background-image: url("https://s3-ap-southeast-1.amazonaws.com/website-warungpintar/Modal/bg-modal.jpg")
+		height: 150px
+		margin: -20px -20px 0
+		border-radius: 5px 5px 0 0
+		padding: 35px
+
+	.modal-confirm h4 
+		text-align: center
+		font-size: 36px
+		margin: 10px 0
+
+	.modal-confirm .form-control, .modal-confirm .btn 
+		min-height: 40px
+		border-radius: 3px 
+
+	.modal-confirm .close
+		position: absolute
+		top: 15px
+		right: 15px
+		color: #fff
+		text-shadow: none
+		opacity: 0.5
+
+	.modal-confirm .close:hover 
+		opacity: 0.8
+
+	.modal-confirm.modal-dialog 
+		margin-top: 80px
+
+	.modal-confirm .btn 
+		color: #fff
+		border-radius: 4px
+		background: #eeb711
+		text-decoration: none
+		transition: all 0.4s
+		line-height: normal
+		border-radius: 30px
+		margin-top: 10px
+		padding: 6px 20px
+		border: none
+
+	.modal-confirm .btn:hover, .modal-confirm .btn:focus 
+		background: #eda645
+		outline: none
+
+	.modal-confirm .btn span 
+		margin: 1px 3px 0
+		float: left
+
+	.modal-confirm .btn i 
+		margin-left: 1px
+		font-size: 20px
+		float: right
+
+	.row-map
+		margin-top: 68px
+		margin-bottom: 30px
+
+		.map
+			text-align: center
+
+			#head-map
+				@include judul
+				margin-bottom: 50px
+				padding: 0
+
+			#map
+				height: 500px
+				width: 100%
+				margin-top: 50px
+				margin-bottom: 65px
+	
+// Another stories
+.story
+	margin-top: $gap-section
+	// background-image: url("https://s3-ap-southeast-1.amazonaws.com/website-warungpintar/Cerita/bg-story.jpg")
+	background-image: url("../img/transparent/fitur-trans.png")
+	background-repeat: no-repeat
+	background-position: center center
+	margin-left: 0
+	margin-right: 0
+	padding: 0
+	padding-top: 25px
+	padding-bottom: 25px
+	width: 100%
+
+#testimonial4
+	overflow: hidden
+	min-height: 375px
+	position: relative
+
+#testimonial4 .carousel-inner
+	width: 75%
+	margin: auto
+
+#testimonial4 .carousel-inner:hover
+	cursor: -moz-grab
+	cursor: -webkit-grab
+
+#testimonial4 .carousel-inner:active
+	cursor: -moz-grabbing
+	cursor: -webkit-grabbing
+
+#testimonial4 .carousel-inner .item
+	overflow: hidden
+
+
+.testimonial4_indicators .carousel-indicators
+	left: 0
+	margin: 0
+	width: 100%
+	font-size: 0
+	height: 20px
+	bottom: 15px
+	padding: 0 5px
+	cursor: e-resize
+	overflow-x: auto
+	overflow-y: hidden
+	position: absolute
+	text-align: center
+	white-space: nowrap
+
+.testimonial4_indicators .carousel-indicators li
+	padding: 0
+	width: 10px
+	height: 10px
+	border: none
+	text-indent: 0
+	margin: 2px 3px
+	cursor: pointer
+	display: inline-block
+	background: white
+	-webkit-border-radius: 100%
+	border-radius: 100%
+
+.testimonial4_indicators .carousel-indicators .active
+	padding: 0
+	width: 10px
+	height: 10px
+	border: none
+	margin: 2px 3px
+	background-color: $main-color
+	-webkit-border-radius: 100%
+	border-radius: 100%
+
+.testimonial4_indicators .carousel-indicators:-webkit-scrollbar
+	height: 3px
+
+.testimonial4_indicators .carousel-indicators:-webkit-scrollbar-thumb
+	background: #eeeeee
+	-webkit-border-radius: 0
+	border-radius: 0
+
+
+.testimonial4_control_button .carousel-control
+	top: 175px
+	opacity: 1
+	width: 40px
+	bottom: auto
+	height: 40px
+	font-size: 10px
+	cursor: pointer
+	font-weight: 700
+	overflow: hidden
+	line-height: 38px
+	text-shadow: none
+	text-align: center
+	position: absolute
+	background: transparent
+	border: 2px solid $main-color
+	text-transform: uppercase
+	-webkit-border-radius: 100%
+	border-radius: 100%
+	-webkit-box-shadow: none
+	box-shadow: none
+	-webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1)
+	transition: all 0.6s cubic-bezier(0.3,1,0,1)
+
+.testimonial4_control_button .carousel-control.left
+	left: 7%
+	right: auto
+
+.testimonial4_control_button .carousel-control.right
+	right: 7%
+	left: auto
+
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover
+	color: $main-color
+	background: transparent
+	border: 2px solid $main-color
+
+
+.testimonial4_header
+	top: 0
+	left: 0
+	bottom: 0
+	width: 550px
+	display: block
+	margin: 30px auto
+	text-align: center
+	position: relative
+
+.testimonial4_header h4
+	color: white
+	font-size: 30px
+	font-weight: 600
+	position: relative
+	letter-spacing: 1px
+
+
+.testimonial4_slide
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	width: 70%
+	margin: auto
+	padding: 20px
+	position: relative
+	text-align: center
+
+.testimonial4_slide img 
+	top: 0
+	left: 0
+	right: 0
+	width: 70px
+	height: 70px
+	margin: auto
+	display: block
+	color: #f2f2f2
+	font-size: 18px
+	line-height: 46px
+	text-align: center
+	position: relative
+
+
+.testimonial4_slide p 
+	color: white
+	font-size: 16px
+	margin: 40px 0 20px 0
+
+
+.testimonial4_slide h4 
+	color: white
+	font-size: 24px
+	font-weight: bold
+
+
+
+@media only screen and (max-width: 480px)
+	.testimonial4_control_button .carousel-control
+		display: none
+	
+	.testimonial4_header
+		width: 95%
+
+	.testimonial4_header h4
+		font-size: 20px
+
+	.testimonial4_slide
+		width: 98%
+		padding: 5px
+
+
+
+@media (min-width: 481px) and (max-width: 767px)
+	.testimonial4_control_button .carousel-control.left
+		left: 2%
+
+	.testimonial4_control_button .carousel-control.right
+		right: 2%
+
+	.testimonial4_header
+		width: 95%
+
+	.testimonial4_slide
+		width: 98%
+		padding: 5px
+
+
+
+@media (min-width: 768px) and (max-width: 991px)
+	.testimonial4_control_button .carousel-control.left
+		left: 5%
+	
+	.testimonial4_control_button .carousel-control.right
+		right: 5%
+	
+
+
+@-webkit-keyframes psBoxShadowEffect_2
+	0% 
+		opacity: 0.3
+	
+	40% 
+		opacity: 0.5
+		-webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px black, 0 0 0 10px rgba(255,255,255,0.5)
+	
+	100% 
+		-webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 5px 5px black, 0 0 0 5px rgba(255,255,255,0.5)
+		-webkit-transform: scale(1.5)
+		opacity: 0
+	
+
+@keyframes psBoxShadowEffect_2
+	0% 
+		opacity: 0.3
+	
+	40% 
+		opacity: 0.5
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px black, 0 0 0 10px rgba(255,255,255,0.5)
+	
+	100% 
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 5px 5px black, 0 0 0 5px rgba(255,255,255,0.5)
+		transform: scale(1.5)
+		opacity: 0
+	
+
