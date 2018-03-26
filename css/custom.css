@@ -1,0 +1,123 @@
+/** 
+**
+** custom lima #yudhi 
+**
+**
+**/
+
+h1, h2,h3,h4{
+	font-family:  'ABeeZee', sans-serif;
+}
+
+.hd-heading{
+	font-weight: 600;
+	    font-size: 45px;
+}
+
+.content .top-head .btn{
+	border-radius: 1px !important;
+	border-color: #333;
+	background-color: #47b54a;
+}
+
+.content .form .signbuttons {
+  	border-radius:5px !important;
+    background: #47b54a !important;
+    border: 1px solid #333 !important;
+    color: #fff;
+    font-weight: 600 !important;
+    padding: 5px 20px;
+    height: 40px !important;
+}
+.content .form .signbuttons:hover,
+#mc_embed_signup .button:hover{
+	background: #fff !important;
+	    color: #FDC20F!important;
+}
+
+.content .top-head .jumbotron {
+ 
+    padding-top: 70px !important;
+     
+}
+.jumbotron p {
+   
+    font-size: 17px !important;
+    padding-right: 80px !important;
+}
+
+ul.feature-list{
+	list-style: none;
+}
+
+ul.feature-list li{
+	padding: 5px 0px;
+}
+
+.story {
+    margin-top: 0px !important;
+}
+.content .form .head-form {
+	margin-bottom:0px !important;
+}
+
+.content .form .sub-head-form {
+	margin-bottom:60px ;
+	text-align: center;
+	font-size: 15px;
+}
+
+.split-about .about strong{
+	font-size: 15px;
+}
+ 
+.content .top-head .jumbotron {
+   
+    height: 650px !important;
+}
+
+.content .about-WP{
+	padding-top: 40px;
+}
+
+.jumbotron .feature-list li{
+  font-size: 16px;
+}
+.testimonial4_slide img{
+	width: 200px !important;
+	height: 200px !important
+}
+
+@media screen and (max-width: 468px){
+
+	.content .top-head .jumbotron {
+	    
+	    padding-top: 30px !important; 
+	}
+
+	.jumbotron p {
+   
+	    
+	    padding-right: 10px !important;
+	}
+
+	.content .top-head .jumbotron {
+	    padding-right: 40px !important;
+	}
+ 
+	.content .ourfeature .feature #image-feature{
+		padding:0px;
+		margin-top: 0px;
+	}
+
+	.content .ourfeature .feature #head-feature {
+		margin-bottom: 5px;
+	}
+
+	.content .ourfeature .feature {
+	    
+	    padding: 0px;
+	    margin-bottom: 20px;
+	}
+ 
+}
